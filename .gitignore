@@ -1,0 +1,9 @@
+.idea/
+dp_fundamentals.iml
+dp_fundamentals.ipr
+dp_fundamentals.iws
+out/
+target/
+data/Shakespeare.txt
+data/pages
+data/partitioned
