@@ -28,5 +28,6 @@ You can run the following commands:
 * word_count_parallel
 * word_count_serial
 * word_count_rdd
+* exit
 
 
