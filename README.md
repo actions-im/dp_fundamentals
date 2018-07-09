@@ -1,16 +1,17 @@
 This code is a set of runnable examples for the blog series: Fundamentals of data processing for SciFi geeks 
 
-Blog links:
-Part 1: https://towardsdatascience.com/fundamentals-of-data-processing-part-i-f6a6914e1fec
-Part 2: https://towardsdatascience.com/fundamentals-of-data-processing-for-scifi-geeks-part-ii-apache-spark-rdd-3d4b2c6f39f
+# Blog links 
+
+* [Part 1](https://towardsdatascience.com/fundamentals-of-data-processing-part-i-f6a6914e1fec)
+* [Part 2](https://towardsdatascience.com/fundamentals-of-data-processing-for-scifi-geeks-part-ii-apache-spark-rdd-3d4b2c6f39f)
 
 Setup to run the examples:
 
 1. Install maven: https://maven.apache.org/install.html
 2. Clone the repo.
+
 Download "The Complete Works of William Shakespeare" 
-3. ```cd ./data```
-4. ```wget -O ./shakespeare.txt http://www.gutenberg.org/files/100/100-0.txt```
+3. ```wget -O ./data/shakespeare.txt http://www.gutenberg.org/files/100/100-0.txt```
 
 5. Run the command from the repo directory:```mvn -q clean install exec:java```
 
