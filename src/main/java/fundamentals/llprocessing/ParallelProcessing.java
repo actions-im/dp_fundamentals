@@ -73,7 +73,7 @@ public class ParallelProcessing {
 
         @Override
         protected Map<String, Long> compute() {
-            return runningTasks.stream()
+            return Iterators.fromJava(runningTasks.iterator())
                     .map(ForkJoinTask::join)
                     .reduce(new HashMap<>(), (agg, pwc)->{
                         pwc.forEach((word, partitionCount)->agg.put(word, agg.getOrDefault(word, 0L)+partitionCount));
