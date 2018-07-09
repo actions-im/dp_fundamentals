@@ -81,8 +81,8 @@ public class Runner {
                 }
             });
             Files.delete(directory);
-            Files.createDirectory(directory);
         }
+        Files.createDirectory(directory);
     }
 
 
