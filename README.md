@@ -10,10 +10,11 @@ Setup to run the examples:
 1. Install maven: https://maven.apache.org/install.html
 2. Clone the repo.
 
-Download "The Complete Works of William Shakespeare" 
+Download "The Complete Works of William Shakespeare"
+
 3. ```wget -O ./data/shakespeare.txt http://www.gutenberg.org/files/100/100-0.txt```
 
-5. Run the command from the repo directory:```mvn -q clean install exec:java```
+4. Run the command from the repo directory:```mvn -q clean install exec:java```
 
 You will see the prompt:
 ```
