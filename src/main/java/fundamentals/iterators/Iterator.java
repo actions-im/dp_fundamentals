@@ -147,7 +147,7 @@ public abstract class Iterator<I>{
     public <O> O reduce(O start, BiFunction<O, I, O> aggregator){
         O current = start;
         while(hasNext()){
-            aggregator.apply(current, next());
+            current = aggregator.apply(current, next());
         }
         return current;
     }
